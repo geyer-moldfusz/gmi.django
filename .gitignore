@@ -1,0 +1,14 @@
+*.pyc
+.installed.cfg
+.mr.developer.cfg
+__pycache__
+bin/
+db.sqlite3
+develop-eggs/
+eggs/
+include/
+lib/
+lib64
+settings.py
+src/
+static/
