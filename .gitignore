@@ -1,4 +1,5 @@
 *.pyc
+*.swp
 .installed.cfg
 .mr.developer.cfg
 __pycache__
