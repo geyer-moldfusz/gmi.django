@@ -1,5 +1,5 @@
 *.pyc
-pip-selfcheck.json
+*.swp
 .installed.cfg
 .mr.developer.cfg
 __pycache__
@@ -10,6 +10,7 @@ eggs/
 include/
 lib/
 lib64
+pip-selfcheck.json
 pip-selfcheck.json
 settings.py
 src/
