@@ -1,5 +1,6 @@
 *.pyc
 *.swp
+.coverage
 .installed.cfg
 .mr.developer.cfg
 __pycache__

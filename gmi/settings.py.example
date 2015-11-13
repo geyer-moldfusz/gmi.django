@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
+    'django_nose',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -68,6 +69,8 @@ TEMPLATES = [
         },
     },
 ]
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 WSGI_APPLICATION = 'gmi.wsgi.application'
 
