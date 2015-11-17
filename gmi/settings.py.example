@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = (
     'django_nose',
+    'django_markdown',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'gmi.django.scooper',
     'gmi.django.avatar',
-    'gmi.django.profile',
+    'gmi.django.profile.ProfileApp',
 )
 
 MIDDLEWARE_CLASSES = (
