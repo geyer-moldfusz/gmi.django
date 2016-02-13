@@ -59,7 +59,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'gmi.urls'
+ROOT_URLCONF = 'app.urls'
 
 TEMPLATES = [
     {
@@ -81,7 +81,7 @@ TEMPLATES = [
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
-WSGI_APPLICATION = 'gmi.wsgi.application'
+WSGI_APPLICATION = 'app.wsgi.application'
 
 
 # Database
